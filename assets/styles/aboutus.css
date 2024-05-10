@@ -740,6 +740,9 @@ summary p {
 .form-signin {
   padding: 32px 16px;
 }
+.form-signin h5 {
+  width: 100%;
+}
 
 .form {
  flex-direction: column;
