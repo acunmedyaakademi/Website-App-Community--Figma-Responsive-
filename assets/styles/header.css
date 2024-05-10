@@ -952,6 +952,723 @@ time {
 
 
 
+
+
+/* blog-html sayfası css kodları başlangıç*/
+
+/* search başlangıç */
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  padding: 32px 0;
+}
+.search-tags {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.search-tags ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+}
+.search-tags li{
+  background-color: #F7F7F8;
+  color: #272D37;
+  padding: 4px 12px;
+}
+
+.search-input {
+  box-shadow: 0px 1px 2px 0px #1018280A;
+
+}
+.search-input .form-control {
+  border: 1px solid #DAE0E6;
+  padding: 12px;
+  border-radius: 6px 0 0 6px;
+}
+.search-input button {
+  background-color: #437EF7;
+  color: #FFFFFF;
+  padding: 12px 18px;
+  border-radius: 0 6px 6px 0;
+  border: 1px solid#437EF7;
+  margin-left: -5px;
+}
+
+/* search bitiş */
+
+/* card başlangıç */
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.card-col {
+  display: flex;
+  gap: 32px;
+}
+
+.card-box {
+  width: 386px;
+  border: 1px solid #EAEBF0 ;
+  border-radius: 10px;
+}
+.card-box-img {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 386px;
+}
+.card-box-img img {
+  border-radius: 10px 10px 0 0 ;
+  width: 100%;
+}
+.card-box-img span {
+  margin-top: -25px;
+  margin-right: 32px;
+}
+
+.card-box-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px 24px;
+  gap: 24px;
+}
+.card-box-text-tags {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.card-box-text-tags p {
+  background-color: #F5FAFF;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.card-box-text-tags time {
+  color: #5F6D7E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-box-text h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #272D37;
+}
+
+.card-box-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5F6D7E;
+}
+
+.card-box-text-detaly {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.card-box-text-detaly a {
+  color: #437EF7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.more {
+  padding: 64px 0;
+}
+
+.more button {
+  border: none;
+  border-radius: 6px;
+  padding: 12px 18px;
+  background-color: #437EF7;
+  color: #FFFFFF;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  padding: 64px 80px 48px;
+  border: 0 0 1px 0 solid #2E3545;
+  background-color: #151B28;
+
+}
+
+.login-text {
+  color: #F9F9F9;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.login-button {
+  display: flex;
+  gap: 6px;
+}
+
+.login-button a {
+  padding: 12px 18px;
+  border-radius: 6px;
+  color: #F5F8FE;
+  border: none;
+}
+
+.login-button .blue {
+  background-color: #437EF7;
+}
+
+.login-button .dark {
+  background-color: #2C3444;
+  border: 1px #2E3545;
+}
+/* card bitiş */
+
+
+/* blog-html sayfası css kodları bitiş*/
+
+
+/* aboutus-html sayfası css kodları başlangıç*/
+
+.features {
+  text-align: center;
+  padding: 64px 320px;
+}
+
+.features h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  margin-bottom: 16px;
+}
+
+.features p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.features-item {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-inline: 166px;
+}
+
+.features-item h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1%;
+  color: #272D37;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.features-item p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.btn {
+  display: none;
+}
+
+.features-item-other {
+  display: none;
+}
+
+.checkus {
+  padding-top: 128px;
+  padding-inline: 80px;
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin-inline: 80px;
+}
+
+.checkus h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #272D37;
+  margin-bottom: 12px;
+}
+
+.checkus p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-bottom: 24px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+li {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  color: #5F6D7E;
+}
+
+.checkus-text a {
+  width: 146px;
+  display: flex;
+  gap: 6px;
+  padding: 12px 18px;
+  background-color: #437EF7;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.tablet {
+  display: none;
+}
+
+.team {
+  padding: 64px 320px;
+  text-align: center;
+}
+
+.team h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  color: #272D37;
+  margin-bottom: 16px;
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.team-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-inline: 80px;
+  margin-bottom: 64px;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.item h4 {
+ padding-top: 16px;
+ font-size: 22px;
+ font-weight: 600;
+ line-height: 30px;
+ letter-spacing: -1%;
+}
+
+.question {
+  border: 1px solid #EAEBF0;
+  border-radius: 8px;
+  margin-inline: 112px;
+  margin-bottom: 64px;
+}
+
+hr {
+  border: 1px solid #EAEBF0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+ }
+ 
+summary {
+  padding: 0px 32px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 28px;
+  padding-left: 32px;
+}
+
+summary p {
+  display: flex;
+  gap: 32px;
+}
+
+.button a {
+  padding: 4px 12px;
+  text-decoration: none;
+  color: #437EF7;
+  background-color: #F5FAFF;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+.question p {
+  padding-left: 32px;
+  padding-bottom: 10px;
+}
+
+.text p {
+  padding-left: 0px;
+}
+
+.form-signin {
+  width: 100%;
+  padding: 64px 80px;
+  text-align: center;
+  background-color: #2B63D9;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-signin-text {
+  width: 600px;
+}
+
+.form-signin h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.form-signin h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 64px;
+}
+
+.form {
+  margin-inline: 32%;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.signin a {
+  text-decoration: none;
+  color: #2B63D9;
+  background-color: #FFFFFF;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #437EF7;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.sponsor {
+  display: flex;
+  gap: 64px;
+  background-color: #2B63D9;
+  padding-inline: 112px;
+  padding-block: 64px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* aboutus-html sayfası css kodları başlangıç*/
+
+.features {
+  text-align: center;
+  padding: 64px 320px;
+}
+
+.features h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  margin-bottom: 16px;
+}
+
+.features p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.features-item {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-inline: 166px;
+}
+
+.features-item h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1%;
+  color: #272D37;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.features-item p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.btn {
+  display: none;
+}
+
+.features-item-other {
+  display: none;
+}
+
+.checkus {
+  padding-top: 128px;
+  padding-inline: 80px;
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin-inline: 80px;
+}
+
+.checkus h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #272D37;
+  margin-bottom: 12px;
+}
+
+.checkus p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-bottom: 24px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+li {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  color: #5F6D7E;
+}
+
+.checkus-text a {
+  width: 146px;
+  display: flex;
+  gap: 6px;
+  padding: 12px 18px;
+  background-color: #437EF7;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.tablet {
+  display: none;
+}
+
+.team {
+  padding: 64px 320px;
+  text-align: center;
+}
+
+.team h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  color: #272D37;
+  margin-bottom: 16px;
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.team-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-inline: 80px;
+  margin-bottom: 64px;
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.item h4 {
+ padding-top: 16px;
+ font-size: 22px;
+ font-weight: 600;
+ line-height: 30px;
+ letter-spacing: -1%;
+}
+
+.question {
+  border: 1px solid #EAEBF0;
+  border-radius: 8px;
+  margin-inline: 112px;
+  margin-bottom: 64px;
+}
+
+hr {
+  border: 1px solid #EAEBF0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+ }
+ 
+summary {
+  padding: 0px 32px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 28px;
+  padding-left: 32px;
+}
+
+summary p {
+  display: flex;
+  gap: 32px;
+}
+
+.button a {
+  padding: 4px 12px;
+  text-decoration: none;
+  color: #437EF7;
+  background-color: #F5FAFF;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+.question p {
+  padding-left: 32px;
+  padding-bottom: 10px;
+}
+
+.text p {
+  padding-left: 0px;
+}
+
+.form-signin {
+  width: 100%;
+  padding: 64px 80px;
+  text-align: center;
+  background-color: #2B63D9;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-signin-text {
+  width: 600px;
+}
+
+.form-signin h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.form-signin h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 64px;
+}
+
+.form {
+  margin-inline: 32%;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.signin a {
+  text-decoration: none;
+  color: #2B63D9;
+  background-color: #FFFFFF;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #437EF7;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.sponsor {
+  display: flex;
+  gap: 64px;
+  background-color: #2B63D9;
+  padding-inline: 112px;
+  padding-block: 64px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+/* aboutus-html sayfası css kodları bitiş*/
+
+
 /*tablet başlangıç yeri*/
 
 
@@ -1201,6 +1918,54 @@ time {
    justify-content: space-between;
   }
 
+
+  /* blog-html dosyası tablet css kodları başlangıç*/
+  .search {
+    width: 704px;
+    padding: 32px;
+  }
+  .search .tablet {
+    display: none;
+  }
+  .card-body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 336px);
+    gap: 32px;
+    row-gap: 96px;
+    
+  }
+  .card-col {
+    width: 100%;
+    display: inline-block;
+    
+  }
+  #yok {
+    display: none;
+  }
+  .more {
+    display: block;
+    padding: 0 0 48px 0;
+  }
+
+  .card-box {
+    width: 336px;
+    margin-bottom: 96px;
+  }
+
+  .card-box-img {
+    width: 336px;
+  }
+
+  .login {
+    width: 704px;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 32px;
+  }
+
+  /* blog-html dosyası tablet css kodları bitiş*/
+
 }
 
 
@@ -1449,6 +2214,73 @@ time {
     width: 343px;
     padding: 0;
   }
+
+  /*blog-html dosyası mobil kodlarının başlangıçı*/
+  .search {
+    flex-direction: column;
+    width: 343px;
+    padding: 32px 16px;
+    gap: 24px;
+  }
+  .search .tablet {
+    display: none;
+  }
+  .search-input {
+    display: flex;
+    width: 100%;
+  }
+  .search-input input {
+    width: 100%;
+  }
+
+  .card-body {
+    width: 100%;
+    display: flex;
+    row-gap: 32px;
+    
+  }
+  .card-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  #yok {
+    display: inline;
+    display: flex;
+  }
+
+  .more {
+    display: block;
+    padding: 24px 0 48px 0;
+  }
+
+  .card-box {
+    width: 336px;
+    margin-bottom: 0;
+  }
+
+  .card-box-img {
+    width: 336px;
+  }
+
+  .login {
+    width: 343px;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 16px;
+  }
+  .login-button {
+    flex-direction: column;
+  }
+
+
+
+  /*blog-html dosyası mobil kodlarının bitişi*/
+
+
 }
 
 
